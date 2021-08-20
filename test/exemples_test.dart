@@ -1,5 +1,5 @@
 import 'package:firebase_database/firebase_database.dart';
-import 'package:firebase_database_mocks/firebase_database_mocks.dart';
+import 'package:firebase_database_mock/firebase_database_mocks.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 class UserRepository {
@@ -22,7 +22,7 @@ class UserRepository {
 
 void main() {
   FirebaseDatabase firebaseDatabase;
-  UserRepository userRepository;
+  late UserRepository userRepository;
   // Put fake data
   const userId = 'userId';
   const userName = 'Elon musk';

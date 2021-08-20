@@ -2,10 +2,8 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:mockito/mockito.dart';
 
 class MockDataSnapshot extends Mock implements DataSnapshot {
-  final dynamic _value;
+  final String? key;
+  final dynamic value;
 
-  MockDataSnapshot(this._value);
-
-  @override
-  dynamic get value => _value;
+  MockDataSnapshot({this.key, required this.value});
 }

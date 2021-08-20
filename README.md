@@ -1,6 +1,6 @@
 # firebase_database_mocks
 
-[![Pub Version](https://img.shields.io/pub/v/firebase_database_mocks)](https://pub.dev/packages/firebase_database_mocks) [![style: effective dart](https://img.shields.io/badge/style-pedantic-blue)](https://github.com/google/pedantic) [![test: passing](https://img.shields.io/badge/test-passing-green)](https://github.com/sitatec/firebase_database_mocks/tree/main/test)
+[![Pub Version](https://img.shields.io/pub/v/firebase_database_mocks)](https://pub.dev/packages/firebase_database_mocks) [![style: effective dart](https://img.shields.io/badge/style-pedantic-blue)](https://github.com/google/pedantic) [![test: passing](https://img.shields.io/badge/test-passing-green)](https://github.com/matheuskildere/flutter_firebase_database_mock/tree/main/test)
 
 Mocks library to write unit tests for FirebaseDatabase (real-time database). Get Instance
 `MockFirebaseDatabase.instance`, then pass it around your project as if it was a
@@ -82,8 +82,8 @@ the `setupFirebaseMocks()` top level function which performs all required operat
 for testing a firebase service that isn't fully mocked .
 
 
-- [Issues](https://github.com/sitatec/firebase_database_mocks/issues)
-- [Pull requests](https://github.com/sitatec/firebase_database_mocks/pulls)
+- [Issues](https://github.com/matheuskildere/flutter_firebase_database_mock/issues)
+- [Pull requests](https://github.com/matheuskildere/flutter_firebase_database_mock/pulls)
 
 A few resources to get you started if this is your first Flutter project:
 

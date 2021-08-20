@@ -1,5 +1,5 @@
 import 'package:firebase_database/firebase_database.dart';
-import 'package:firebase_database_mock/firebase_database_mocks.dart';
+import 'package:firebase_database_mock/firebase_database_mock.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 class UserRepository {

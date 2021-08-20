@@ -2,7 +2,7 @@ name: firebase_database_mock
 
 description: Mocks to write unit tests for FirebaseDatabase (real-time database).
 
-version: 0.1.0+1
+version: 0.1.0
 
 repository: https://github.com/matheuskildere/flutter_firebase_database_mock.git
 homepage: https://github.com/matheuskildere/flutter_firebase_database_mock.git
